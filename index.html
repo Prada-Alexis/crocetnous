@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrocetNous — Alimentation Premium pour vos Animaux</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Croc<span>&</span>Nous</a>
+  <ul class="nav-links">
+    <li><a href="#pourquoi">Notre démarche</a></li>
+    <li><a href="#produits">Produits</a></li>
+    <li><a href="#boutique">Boutique</a></li>
+    <li><a href="#contact" class="nav-cta">Nous contacter</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-badge">100 % Recettes Françaises</div>
+    <h1>Une alimentation <em>saine &amp; naturelle</em> pour vos compagnons</h1>
+    <div class="hero-actions">
+      <a href="tel:+33659067506" class="btn-primary">📞 Commander par téléphone</a>
+      <a href="#produits" class="btn-secondary">Voir nos produits</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img src="https://crocetnous.fr/wp-content/uploads/2024/12/crocetnous-coteau.png" alt="CrocetNous">
+    <div class="hero-visual-overlay"></div>
+    <div class="hero-stat-card">
+      <p>Livraison à domicile</p>
+      <strong>dans un rayon de 15 km</strong>
+    </div>
+  </div>
+</section>
+
+<!-- BANDE D'INFO -->
+<div class="strip">
+  <span><strong>Fabriqué en France</strong></span>
+  <span><strong>Circuit court</strong></span>
+  <span><strong>Matières premières 100 % françaises</strong></span>
+  <span><strong>Livraison à domicile</strong></span>
+</div>
+
+<!-- NOTRE DÉMARCHE -->
+<section class="why" id="pourquoi">
+  <div class="why-header reveal">
+    <div class="section-label">Notre démarche</div>
+    <h2 class="section-title">Qualité &amp; transparence,<br><em>à chaque gamelle</em></h2>
+    <p class="section-desc">Nous sélectionnons chaque recette pour sa valeur nutritionnelle, son origine et ses ingrédients. Vos animaux méritent le meilleur.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-item reveal">
+      <div class="why-icon">🇫🇷</div>
+      <h3>Recettes françaises</h3>
+      <p>Fabriquées aux quatre coins de la France, avec des matières premières issues du territoire.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-1">
+      <div class="why-icon">🌿</div>
+      <h3>Ingrédients triés sur le volet</h3>
+      <p>Nos fournisseurs sont rigoureusement sélectionnés. Pas d'additifs inutiles, pas de compromis sur la traçabilité.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-2">
+      <div class="why-icon">💰</div>
+      <h3>Circuit court avantageux</h3>
+      <p>En réduisant les intermédiaires, nous vous proposons un rapport qualité-prix difficile à battre sur le marché.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-3">
+      <div class="why-icon">🚚</div>
+      <h3>Livraison à domicile</h3>
+      <p>Vous êtes à Roanne ou dans un rayon de 15 km ? On vient chez vous avec vos commandes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOGUE PRODUITS — généré dynamiquement depuis data/catalog.json -->
+<section class="products" id="produits">
+  <div class="products-header">
+    <div class="reveal">
+      <div class="section-label">Catalogue</div>
+      <h2 class="section-title">Nos produits</h2>
+    </div>
+  </div>
+  <!-- Onglets et panneaux injectés par js/app.js -->
+  <div class="animal-tabs"></div>
+</section>
+
+<!-- BANNIÈRE LIVRAISON -->
+<div class="delivery">
+  <h2>Besoin d'un conseil ou d'une livraison ?</h2>
+  <p>Notre équipe est disponible pour vous orienter vers la meilleure alimentation pour votre animal.</p>
+  <a href="tel:+33659067506">📞 06 59 06 75 06</a>
+</div>
+
+<!-- BOUTIQUE & CARTE -->
+<section class="store" id="boutique">
+  <div class="store-content">
+    <div class="section-label">Notre boutique</div>
+    <h2 class="section-title">Venez nous rendre visite à Roanne</h2>
+    <p class="section-desc">Retrouvez-nous dans notre boutique roannaise. Notre équipe vous accueille et vous conseille sur mesure.</p>
+    <div class="store-info">
+      <div class="store-info-item reveal">
+        <div class="store-info-icon">📍</div>
+        <div>
+          <h4>Adresse</h4>
+          <p>57 rue Jean Moulin<br>42300 Roanne</p>
+        </div>
+      </div>
+      <div class="store-info-item reveal reveal-delay-1">
+        <div class="store-info-icon">🕐</div>
+        <div>
+          <h4>Horaires</h4>
+          <p>Mardi – Vendredi : 10h – 18h30<br>Samedi : 10h – 12h &amp; 14h – 17h</p>
+        </div>
+      </div>
+      <div class="store-info-item reveal reveal-delay-2">
+        <div class="store-info-icon">📞</div>
+        <div>
+          <h4>Téléphone</h4>
+          <p>06 59 06 75 06</p>
+        </div>
+      </div>
+    </div>
+    <a href="tel:+33659067506" class="store-phone-cta">📞 Appeler pour commander</a>
+  </div>
+  <div class="store-map">
+    <iframe
+      src="https://www.openstreetmap.org/export/embed.html?bbox=4.055,46.034,4.075,46.044&layer=mapnik&marker=46.039,4.065"
+      allowfullscreen
+      loading="lazy"
+      title="Localisation CrocetNous Roanne">
+    </iframe>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-grid">
+    <div class="reveal">
+      <div class="section-label">Nous écrire</div>
+      <h2 class="section-title">Une question ?<br><em>On vous répond</em></h2>
+      <p class="section-desc" style="margin-top:1rem">Pour toute demande d'information sur nos produits, une livraison ou un conseil nutritionnel pour votre animal, envoyez-nous un message.</p>
+      <div class="contact-note">
+        <p><strong>Réponse rapide garantie.</strong><br>
+        Vous pouvez aussi nous appeler au <a href="tel:+33659067506">06 59 06 75 06</a>.</p>
+      </div>
+    </div>
+    <form id="contact-form" class="reveal reveal-delay-1">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+        </div>
+        <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Marie" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="marie@exemple.fr" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Votre message…" required></textarea>
+      </div>
+      <button type="submit" class="form-submit" id="submit-btn">Envoyer le message →</button>
+      <p id="form-feedback" class="form-feedback hidden">✓ Message envoyé ! Nous vous répondrons très vite.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Croc<span>&</span>Nous</div>
+  <p>57 rue Jean Moulin, 42300 Roanne &nbsp;·&nbsp; <a href="tel:+33659067506">06 59 06 75 06</a></p>
+  <p><a href="https://crocetnous.fr/?page_id=2069" target="_blank" rel="noopener">CGU &amp; Confidentialité</a> &nbsp;·&nbsp; © 2026</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

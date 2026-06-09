@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos produits — CrocetNous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* ---- EN-TÊTE ---- */
+    .catalog-hero {
+      padding: 7rem 8% 0;
+      background: var(--green-dark);
+    }
+    .catalog-hero-top {
+      padding-bottom: 2rem;
+    }
+    .catalog-hero .section-label { color: rgba(247,242,234,0.5); }
+    .catalog-hero .section-title { color: var(--cream); margin-bottom: 0; }
+
+    /* ---- ONGLETS CATÉGORIES ---- */
+    .cat-tabs {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      padding-top: 2.5rem;
+    }
+
+    .cat-tab {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+      min-width: 110px;
+      padding: 1rem 1.5rem;
+      border-radius: 0.75rem 0.75rem 0 0;
+      border: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      background: rgba(255,255,255,0.08);
+      color: rgba(247,242,234,0.55);
+      transition: background 0.2s, color 0.2s, transform 0.15s;
+      position: relative;
+      bottom: 0;
+    }
+    .cat-tab:hover {
+      background: rgba(255,255,255,0.14);
+      color: var(--cream);
+    }
+    .cat-tab.active {
+      color: white;
+      bottom: -2px; /* colle visuellement au body */
+    }
+
+    .cat-tab-emoji {
+      font-size: 2rem;
+      line-height: 1;
+    }
+    .cat-tab-label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .cat-tab-count {
+      font-size: 0.7rem;
+      opacity: 0.7;
+    }
+
+    /* ---- BANDEAU CATÉGORIE ACTIVE ---- */
+    .cat-banner {
+      padding: 1.5rem 8%;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      color: white;
+      transition: background 0.3s;
+    }
+    .cat-banner-emoji { font-size: 2.5rem; }
+    .cat-banner h2 {
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 0.15rem;
+    }
+    .cat-banner p { font-size: 0.9rem; opacity: 0.8; }
+
+    /* ---- CORPS ---- */
+    .catalog-body { padding: 2.5rem 8% 6rem; background: var(--cream); }
+
+    /* ---- FILTRE MARQUES ---- */
+    .brand-filter {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .brand-btn {
+      background: white;
+      border: 1.5px solid var(--cream-dark);
+      color: var(--text-muted);
+      padding: 0.4rem 1rem;
+      border-radius: 2rem;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .brand-btn:hover { border-color: var(--text-muted); color: var(--text); }
+    .brand-btn.active {
+      color: white;
+      border-color: transparent;
+    }
+
+    /* ---- GRILLE ---- */
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .catalog-card {
+      background: white;
+      border-radius: 1rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--cream-dark);
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .catalog-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(26,51,37,0.1);
+    }
+    .catalog-card-img {
+      width: 100%; height: 200px;
+      object-fit: cover; display: block;
+      background: var(--cream-dark);
+    }
+    .catalog-card-body {
+      padding: 1.25rem 1.5rem 1.5rem;
+      flex: 1; display: flex; flex-direction: column;
+    }
+    .catalog-marque {
+      font-size: 0.68rem; letter-spacing: 0.1em;
+      text-transform: uppercase; font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .catalog-card-body h3 {
+      font-family: var(--serif); font-size: 1.2rem;
+      font-weight: 600; color: var(--green-dark);
+      margin-bottom: 0.5rem; line-height: 1.2;
+    }
+    .catalog-card-body p {
+      font-size: 0.875rem; line-height: 1.6;
+      color: var(--text-muted); flex: 1; margin-bottom: 1.2rem;
+    }
+    .catalog-card-footer {
+      display: flex; align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--cream-dark);
+      padding-top: 0.9rem; margin-top: auto;
+    }
+    .catalog-poids {
+      font-size: 0.8rem; color: var(--text-muted); font-weight: 500;
+    }
+    .catalog-prix {
+      font-family: var(--serif); font-size: 1.35rem;
+      font-weight: 600; color: var(--green-dark);
+    }
+
+    /* ---- VIDE ---- */
+    .catalog-empty {
+      grid-column: 1/-1;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    .catalog-empty-emoji { font-size: 3rem; margin-bottom: 1rem; }
+    .catalog-empty h3 { font-family: var(--serif); font-size: 1.4rem; color: var(--green-dark); margin-bottom: 0.5rem; }
+    .catalog-empty p  { font-size: 0.9rem; }
+
+    @media (max-width: 600px) {
+      .catalog-hero { padding: 6.5rem 5% 0; }
+      .cat-tab { min-width: 80px; padding: 0.75rem 1rem; }
+      .cat-banner { padding: 1.2rem 5%; }
+      .catalog-body { padding: 2rem 5% 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Croc<span>&</span>Nous</a>
+  <ul class="nav-links">
+    <li><a href="index.html#pourquoi">Notre démarche</a></li>
+    <li><a href="produits.html">Produits</a></li>
+    <li><a href="index.html#boutique">Boutique</a></li>
+    <li><a href="index.html#contact" class="nav-cta">Nous contacter</a></li>
+  </ul>
+</nav>
+
+<!-- EN-TÊTE + ONGLETS -->
+<div class="catalog-hero">
+  <div class="catalog-hero-top">
+    <div class="section-label">Catalogue complet</div>
+    <h1 class="section-title">Nos produits</h1>
+  </div>
+  <!-- Onglets générés par JS depuis catalog.json -->
+  <div id="cat-tabs" class="cat-tabs"></div>
+</div>
+
+<!-- BANDEAU CATÉGORIE ACTIVE -->
+<div id="cat-banner" class="cat-banner"></div>
+
+<!-- FILTRES + GRILLE -->
+<div class="catalog-body">
+  <div id="brand-filter" class="brand-filter"></div>
+  <div id="catalog-grid" class="catalog-grid"></div>
+</div>
+
+<!-- CONTACT -->
+<div class="delivery">
+  <h2>Une question sur un produit ?</h2>
+  <p>Appelez-nous ou venez en boutique, on vous conseille selon votre animal.</p>
+  <a href="tel:+33659067506">📞 06 59 06 75 06</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Croc<span>&</span>Nous</div>
+  <p>57 rue Jean Moulin, 42300 Roanne &nbsp;·&nbsp;
+     <a href="tel:+33659067506">06 59 06 75 06</a></p>
+  <p>© 2026</p>
+</footer>
+
+<script>
+let catalog        = {};         // toutes les données
+let currentCat     = null;       // clé de la catégorie active
+let currentSubcat  = 'Toutes';
+
+/* ---- Nav scroll ---- */
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+});
+
+/* ---- Chargement ---- */
+async function init() {
+  try {
+    const res = await fetch('data/catalog.json');
+    if (!res.ok) throw new Error('catalog.json introuvable');
+    catalog = await res.json();
+
+    // Catégorie par défaut : paramètre URL ou première clé
+    const param = new URLSearchParams(location.search).get('cat');
+    const keys  = Object.keys(catalog);
+    currentCat  = (param && catalog[param]) ? param : keys[0];
+
+    buildTabs();
+    updatePage();
+  } catch (err) {
+    document.getElementById('catalog-grid').innerHTML =
+      '<p style="padding:3rem;color:var(--text-muted)">Impossible de charger le catalogue.</p>';
+    console.error(err);
+  }
+}
+
+/* ---- Onglets catégories ---- */
+function buildTabs() {
+  const container = document.getElementById('cat-tabs');
+  container.innerHTML = Object.entries(catalog).map(([key, cat]) => {
+    const count = cat.produits.length;
+    const label = count ? `${count} produit${count > 1 ? 's' : ''}` : 'À venir';
+    return `
+      <button class="cat-tab ${key === currentCat ? 'active' : ''}"
+              data-cat="${key}"
+              style="${key === currentCat ? `background:${cat.couleur}` : ''}">
+        <span class="cat-tab-emoji">${cat.emoji}</span>
+        <span class="cat-tab-label">${cat.label}</span>
+        <span class="cat-tab-count">${label}</span>
+      </button>`;
+  }).join('');
+
+  container.querySelectorAll('.cat-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentCat    = btn.dataset.cat;
+      currentSubcat = 'Toutes';
+      buildTabs();
+      updatePage();
+      // Met à jour l'URL sans recharger
+      history.replaceState(null, '', `?cat=${currentCat}`);
+    });
+  });
+}
+
+/* ---- Bandeau catégorie active ---- */
+function updateBanner() {
+  const cat    = catalog[currentCat];
+  const banner = document.getElementById('cat-banner');
+  banner.style.background = cat.couleur;
+  banner.innerHTML = `
+    <span class="cat-banner-emoji">${cat.emoji}</span>
+    <div>
+      <h2>${cat.label}</h2>
+      <p>${cat.description}</p>
+    </div>`;
+}
+
+/* ---- Filtre sous-catégories ---- */
+function updateBrandFilter() {
+  const cat       = catalog[currentCat];
+  const container = document.getElementById('brand-filter');
+
+  if (!cat.sous_categories || cat.sous_categories.length === 0) {
+    container.innerHTML = '';
+    return;
+  }
+
+  const subcats = ['Toutes', ...cat.sous_categories];
+
+  container.innerHTML = subcats.map(s => `
+    <button class="brand-btn ${s === currentSubcat ? 'active' : ''}"
+            data-subcat="${s}"
+            style="${s === currentSubcat ? `background:${cat.couleur};border-color:${cat.couleur}` : ''}">
+      ${s}
+    </button>`).join('');
+
+  container.querySelectorAll('.brand-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSubcat = btn.dataset.subcat;
+      updateBrandFilter();
+      updateGrid();
+    });
+  });
+}
+
+/* ---- Grille produits ---- */
+function updateGrid() {
+  const cat      = catalog[currentCat];
+  const produits = cat.produits;
+  const filtered = currentSubcat === 'Toutes'
+    ? produits
+    : produits.filter(p => p.sous_categorie === currentSubcat);
+  const grid = document.getElementById('catalog-grid');
+
+  if (produits.length === 0) {
+    grid.innerHTML = `
+      <div class="catalog-empty">
+        <div class="catalog-empty-emoji">${cat.emoji}</div>
+        <h3>Gamme bientôt disponible</h3>
+        <p>Les produits pour ${cat.label.toLowerCase()} arrivent prochainement.<br>
+           Appelez-nous au <a href="tel:+33659067506" style="color:var(--terra)">06 59 06 75 06</a> pour plus d'infos.</p>
+      </div>`;
+    return;
+  }
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="catalog-empty"><p>Aucun produit dans cette sélection.</p></div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(p => `
+    <div class="catalog-card">
+      <img src="${p.image}" alt="${p.nom}" class="catalog-card-img" loading="lazy"
+           onerror="this.style.display='none'">
+      <div class="catalog-card-body">
+        <div class="catalog-marque" style="color:${cat.couleur}">${p.sous_categorie}</div>
+        <h3>${p.nom}</h3>
+        <p>${p.description}</p>
+        <div class="catalog-card-footer">
+          <span class="catalog-poids">📦 ${p.poids}</span>
+          <span class="catalog-prix" style="color:${cat.couleur}">${p.prix}</span>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+/* ---- Mise à jour complète de la page ---- */
+function updatePage() {
+  updateBanner();
+  updateBrandFilter();
+  updateGrid();
+}
+
+init();
+</script>
+</body>
+</html>

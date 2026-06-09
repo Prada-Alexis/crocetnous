@@ -1,0 +1,312 @@
+{
+  "chien": {
+    "label": "Chiens",
+    "emoji": "🐶",
+    "couleur": "#1a3325",
+    "description": "Croquettes premium et compléments pour chiens, toutes tailles et tous âges.",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+    "sous_categories": [
+      "Sec (croquettes)",
+      "Crue (BARF)",
+      "Humides, friandises et compléments alimentaires",
+      "Hygiène, accessoires et jouets"
+    ],
+    "produits": [
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Croc'DOG",
+        "nom": "Croc'DOG Entretien",
+        "poids": "20 kg",
+        "prix": "28,00 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Pour les longues périodes de repos ou de faible activité. Protéines animales françaises 26 %, MG 12 %. Fabrication française."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Croc'DOG",
+        "nom": "Croc'DOG Activité",
+        "poids": "20 kg",
+        "prix": "30,00 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Idéal pour les périodes de pleine activité. Teneur élevée en protéines animales françaises 29 %, MG 14 %."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Croc'DOG",
+        "nom": "Croc'DOG Énergie",
+        "poids": "20 kg",
+        "prix": "32,00 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Pour besoins énergétiques soutenus et haute performance. Protéines 32 %, MG 15 %. Fabriqué en France."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Croc'DOG",
+        "nom": "Croc'DOG Junior",
+        "poids": "20 kg",
+        "prix": "42,00 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Spécial croissance pour chiots et chiens juniors, toutes races. Enrichi en levure de bière et huile de saumon."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "WOOF",
+        "nom": "WOOF Adulte",
+        "poids": "14 kg",
+        "prix": "31,50 €",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "description": "Pour chiens adultes en activité normale, toutes races moyennes et grandes. Sac fraîcheur avec fermeture zip."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "WOOF",
+        "nom": "WOOF Adulte Light",
+        "poids": "14 kg",
+        "prix": "33,30 €",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "description": "Pour chiens adultes en surpoids ou peu actifs. Formule allégée, sac fraîcheur avec fermeture zip."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "WOOF",
+        "nom": "WOOF Senior",
+        "poids": "14 kg",
+        "prix": "33,30 €",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "description": "Pour chiens seniors ou à faible activité quotidienne. Enrichi en taurine et oméga-3, sac fraîcheur zip."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "WOOF",
+        "nom": "WOOF Adulte Mini",
+        "poids": "4 kg",
+        "prix": "12,50 €",
+        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "description": "Pour chiens adultes de petites races en activité normale. Croquette taille mini, sac fraîcheur avec fermeture zip."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Canin",
+        "nom": "Classic Canin Adulte",
+        "poids": "14 kg",
+        "prix": "36,80 €",
+        "image": "https://images.unsplash.com/photo-1601758123927-196f3e5e9a02?w=600&q=80",
+        "description": "Recette premium avec 5 plantes BIO : thym, sauge, marjolaine, origan, persil. Fabriquée en Auvergne, apports nutritionnels équilibrés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Canin",
+        "nom": "Classic Canin Adulte Sensitive",
+        "poids": "12 kg",
+        "prix": "43,20 €",
+        "image": "https://images.unsplash.com/photo-1601758123927-196f3e5e9a02?w=600&q=80",
+        "description": "Recette sans céréales avec 40 % de volaille déshydratée. Apports spécifiques pour chiens aux intestins sensibles."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Adulte Digest Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "39,60 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten pour chiens adultes de races moyennes et grandes. Excellente digestibilité, 37 % de protéines."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Adulte Light Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "39,60 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Rapport protido-calorique optimisé pour chiens adultes peu actifs ou stérilisés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Adulte Énergie Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "42,50 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Haute teneur énergétique avec L-Carnitine pour chiens adultes très actifs."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Senior Digest Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "40,50 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Profil nutritionnel complet et équilibré adapté aux besoins des chiens seniors."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Junior Croissance Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "43,00 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Pour la croissance des chiots de races moyennes et grandes, de 4 à 18 mois."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Junior Sevrage Medium & Maxi",
+        "poids": "12 kg",
+        "prix": "43,00 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Pour chiots de 2 à 4 mois. Croquette taille mini pour faciliter l'apprentissage de la mastication."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Adulte Digest Small & Mini",
+        "poids": "6 kg",
+        "prix": "25,60 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten pour chiens adultes de petites races. Excellente digestibilité, croquette taille adaptée."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Adulte Light Small & Mini",
+        "poids": "6 kg",
+        "prix": "26,20 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Pour petites races peu actives ou stérilisées. Rapport protido-calorique optimisé."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "HD Optimum",
+        "nom": "HD Optimum Junior Croissance Small & Mini",
+        "poids": "3 kg",
+        "prix": "18,90 €",
+        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "description": "Super premium sans gluten. Pour le sevrage et la croissance des chiots de petites races, de 2 à 12 mois."
+      }
+    ]
+  },
+
+  "chat": {
+    "label": "Chats",
+    "emoji": "🐱",
+    "couleur": "#7a3520",
+    "description": "Recettes riches en protéines animales spécialement conçues pour les félins.",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80",
+    "sous_categories": [
+      "Sec (croquettes)",
+      "Crue (BARF)",
+      "Humides, friandises et compléments alimentaires",
+      "Hygiène, accessoires et jouets"
+    ],
+    "produits": [
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "nom": "Adulte Stérilisé",
+        "poids": "10 kg",
+        "prix": "31,50 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Formule adaptée aux chats stérilisés. Contrôle du poids et prévention des calculs urinaires."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "nom": "Chaton",
+        "poids": "4 kg",
+        "prix": "18,50 €",
+        "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&q=80",
+        "description": "Alimentation spéciale croissance pour chatons de 2 à 12 mois. Enrichie en taurine."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "nom": "Mix Lapin & Abats",
+        "poids": "1 kg",
+        "prix": "14,00 €",
+        "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&q=80",
+        "description": "Ration crue pour chats à base de lapin et abats de volaille. 100% naturel."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "nom": "Terrine Thon & Crevettes",
+        "poids": "200 g",
+        "prix": "2,80 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Terrine gourmande au thon et crevettes. Riche en oméga-3, soutient la santé rénale."
+      },
+      {
+        "sous_categorie": "Hygiène, accessoires et jouets",
+        "nom": "Litière végétale 15 L",
+        "poids": "15 L",
+        "prix": "9,90 €",
+        "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&q=80",
+        "description": "Litière agglomérante à base de fibres végétales. Absorbante, sans parfum, biodégradable."
+      }
+    ]
+  },
+
+  "rongeur": {
+    "label": "Rongeurs",
+    "emoji": "🐹",
+    "couleur": "#5a4a2a",
+    "description": "Alimentation et accessoires pour rongeurs.",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80",
+    "produits": [
+      {
+        "sous_categorie": "",
+        "nom": "Mélange Graines Lapin",
+        "poids": "5 kg",
+        "prix": "12,50 €",
+        "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80",
+        "description": "Mélange complet de graines et légumes déshydratés pour lapins et cobayes."
+      },
+      {
+        "sous_categorie": "",
+        "nom": "Granulés Cochon d'Inde",
+        "poids": "2 kg",
+        "prix": "7,90 €",
+        "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80",
+        "description": "Granulés enrichis en vitamine C pour cobayes adultes. Formule équilibrée."
+      },
+      {
+        "sous_categorie": "",
+        "nom": "Foin de Timothy",
+        "poids": "1 kg",
+        "prix": "5,50 €",
+        "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80",
+        "description": "Foin premium haute qualité, favorise le transit et l'usure des dents."
+      }
+    ]
+  },
+
+  "poule_oiseau": {
+    "label": "Poules / Oiseaux",
+    "emoji": "🐔",
+    "couleur": "#7a5500",
+    "description": "Gamme spéciale volailles de basse-cour et oiseaux.",
+    "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80",
+    "produits": [
+      {
+        "sous_categorie": "",
+        "nom": "Blé entier poules",
+        "poids": "25 kg",
+        "prix": "22,00 €",
+        "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=600&q=80",
+        "description": "Blé entier sélectionné pour poules pondeuses. Favorise la ponte et la vitalité."
+      },
+      {
+        "sous_categorie": "",
+        "nom": "Mélange Perruches & Canaris",
+        "poids": "3 kg",
+        "prix": "8,90 €",
+        "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=600&q=80",
+        "description": "Mélange de graines tropicales pour perruches, canaris et petits oiseaux."
+      },
+      {
+        "sous_categorie": "",
+        "nom": "Complément Ponte Calcium",
+        "poids": "1 kg",
+        "prix": "6,50 €",
+        "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=600&q=80",
+        "description": "Complément minéral riche en calcium pour optimiser la qualité des œufs."
+      }
+    ]
+  }
+}
