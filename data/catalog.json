@@ -182,6 +182,249 @@
         "prix": "18,90 €",
         "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
         "description": "Super premium sans gluten. Pour le sevrage et la croissance des chiots de petites races, de 2 à 12 mois."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Adulte",
+        "poids": "4 kg",
+        "prix": "12,50 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes premium pour chiens adultes toutes races. Formule équilibrée, fabrication française."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Adulte",
+        "poids": "20 kg",
+        "prix": "54,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes premium pour chiens adultes toutes races. Format économique 20 kg, fabrication française."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Chiot",
+        "poids": "20 kg",
+        "prix": "59,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes premium spéciales croissance pour chiots et jeunes chiens. Enrichi en calcium et phosphore."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Adulte Sport 30/20",
+        "poids": "20 kg",
+        "prix": "56,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes haute performance pour chiens de sport et de travail. 30 % de protéines, 20 % de matières grasses."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Adulte Agneau",
+        "poids": "20 kg",
+        "prix": "58,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes à l'agneau pour chiens adultes aux sensibilités alimentaires. Source unique de protéines animales."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Adulte Saumon",
+        "poids": "20 kg",
+        "prix": "69,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes au saumon pour chiens adultes. Riche en oméga-3 pour un pelage brillant et une peau saine."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Digestif Poulet",
+        "poids": "6 kg",
+        "prix": "39,30 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes vétérinaires au poulet pour chiens à digestion sensible. Formule hautement digestible."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Perte de poids",
+        "poids": "12 kg",
+        "prix": "62,10 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes vétérinaires à faible densité calorique pour chiens en surpoids. Programme de perte de poids progressive."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Peau et Pelage (Saumon)",
+        "poids": "12 kg",
+        "prix": "65,80 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes vétérinaires au saumon, enrichies en oméga-3 et 6 pour chiens avec problèmes cutanés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Junior Peau et Pelage (Saumon)",
+        "poids": "2 kg",
+        "prix": "À définir",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes au saumon pour chiots, soutient la santé de la peau et du pelage dès le plus jeune âge."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Hypoallergéniques (Insectes)",
+        "poids": "10 kg",
+        "prix": "63,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes vétérinaires à base d'insectes, source de protéines alternatives pour chiens allergiques."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Junior Mini",
+        "poids": "2 kg",
+        "prix": "17,30 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiots de petites races. Taille de croquette adaptée, enrichi en DHA pour le développement cérébral."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Junior Medium",
+        "poids": "12 kg",
+        "prix": "56,80 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiots de races moyennes. Soutient la croissance musculaire et osseuse."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Junior Maxi",
+        "poids": "12 kg",
+        "prix": "56,60 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiots de grandes races. Formule adaptée à la croissance lente des grands gabarits."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Medium",
+        "poids": "12 kg",
+        "prix": "50,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes équilibrées pour chiens adultes de races moyennes en activité normale."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Maxi",
+        "poids": "12 kg",
+        "prix": "51,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens adultes de grandes races. Croquette taille maxi adaptée aux grands gabarits."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Mini Stérilisé",
+        "poids": "6 kg",
+        "prix": "35,60 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens de petites races stérilisés. Formule allégée pour prévenir la prise de poids."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Medium Stérilisé",
+        "poids": "12 kg",
+        "prix": "50,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens de races moyennes stérilisés. Contrôle du poids et équilibre nutritionnel."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Maxi Stérilisé",
+        "poids": "12 kg",
+        "prix": "51,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens de grandes races stérilisés. Formule allégée adaptée au nouveau métabolisme."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Mini Sénior",
+        "poids": "6 kg",
+        "prix": "34,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens seniors de petites races. Enrichi en glucosamine et chondroïtine pour les articulations."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Medium et Maxi Sénior",
+        "poids": "12 kg",
+        "prix": "53,00 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes pour chiens seniors de races moyennes et grandes. Profil nutritionnel adapté au vieillissement."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Mini Sans Céréales",
+        "poids": "6 kg",
+        "prix": "36,50 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes sans céréales pour chiens adultes de petites races. Recette hypoallergénique à base de patate douce."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Mini Peau et Pelage (Saumon)",
+        "poids": "6 kg",
+        "prix": "40,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Croquettes au saumon pour petites races. Oméga-3 et 6 pour un pelage soyeux et une peau équilibrée."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Essentiel Chien Actif et Chiot",
+        "poids": "2,5 kg",
+        "prix": "28,20 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Recette artisanale française pour chiens actifs et chiots. Ingrédients naturels sélectionnés, sans colorants ajoutés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Essentiel Chien Actif et Chiot",
+        "poids": "9 kg",
+        "prix": "70,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Recette artisanale française pour chiens actifs et chiots. Format familial 9 kg, sans colorants ni conservateurs ajoutés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Sans Céréales Chien Actif et Chiot",
+        "poids": "2,5 kg",
+        "prix": "28,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Recette sans céréales Maison Moulin pour chiens actifs et chiots. Protéines nobles et légumineuses."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Sans Céréales Chien Actif et Chiot",
+        "poids": "9 kg",
+        "prix": "83,90 €",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "description": "Recette sans céréales Maison Moulin, format 9 kg. Idéale pour chiens actifs et chiots sensibles aux céréales."
       }
     ]
   },
@@ -238,6 +481,195 @@
         "prix": "9,90 €",
         "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&q=80",
         "description": "Litière agglomérante à base de fibres végétales. Absorbante, sans parfum, biodégradable."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Chaton",
+        "poids": "3 kg",
+        "prix": "18,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes spéciales croissance pour chatons jusqu'à 12 mois. Riche en taurine et DHA pour un développement optimal."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Volaille",
+        "poids": "3 kg",
+        "prix": "17,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au poulet pour chats adultes. Recette premium avec plantes BIO, fabriquée en Auvergne."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Volaille",
+        "poids": "8 kg",
+        "prix": "33,30 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au poulet pour chats adultes, format 8 kg. Recette premium avec plantes BIO, fabriquée en Auvergne."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Saumon",
+        "poids": "3 kg",
+        "prix": "17,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au saumon pour chats adultes. Riche en oméga-3, favorise un pelage brillant et soyeux."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Saumon",
+        "poids": "8 kg",
+        "prix": "33,30 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au saumon pour chats adultes, format 8 kg. Riche en oméga-3, favorise un pelage brillant et soyeux."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Sans Céréales",
+        "poids": "3 kg",
+        "prix": "À définir",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes sans céréales pour chats adultes sensibles. Recette à haute teneur en protéines animales."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Classic Félin",
+        "nom": "Classic Félin Adulte Sans Céréales",
+        "poids": "8 kg",
+        "prix": "33,30 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes sans céréales pour chats adultes sensibles, format 8 kg. Haute teneur en protéines animales."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Profusion",
+        "nom": "Profusion Premium Chat Stérilisé",
+        "poids": "4 kg",
+        "prix": "15,50 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes premium pour chats stérilisés. Formule allégée pour prévenir la prise de poids et protéger les voies urinaires."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Chaton Poulet",
+        "poids": "3 kg",
+        "prix": "24,00 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au poulet pour chatons. Enrichi en taurine, DHA et vitamines pour une croissance harmonieuse."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Chaton Poulet Sans Céréales",
+        "poids": "3 kg",
+        "prix": "27,20 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes sans céréales au poulet pour chatons. Recette hypoallergénique pour jeunes chats sensibles."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Poulet",
+        "poids": "3 kg",
+        "prix": "23,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au poulet pour chats adultes. Formule équilibrée pour maintenir une condition physique optimale."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Poulet",
+        "poids": "6 kg",
+        "prix": "36,80 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au poulet pour chats adultes, format 6 kg. Formule équilibrée, économique au quotidien."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Canard",
+        "poids": "3 kg",
+        "prix": "24,80 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes au canard pour chats adultes. Source de protéines alternatives pour varier l'alimentation."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Adulte Poulet Sans Céréales",
+        "poids": "3 kg",
+        "prix": "26,40 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes sans céréales au poulet pour chats adultes. Recette hypoallergénique à haute valeur protéique."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Grandes Races Sans Céréales",
+        "poids": "6 kg",
+        "prix": "45,80 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes sans céréales pour chats de grandes races. Croquette taille XL adaptée aux Maine Coon et Ragdoll."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Digestif Poulet",
+        "poids": "6 kg",
+        "prix": "48,20 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes vétérinaires au poulet pour chats à digestion sensible. Formule hautement digestible."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Babin",
+        "nom": "Babin Lab Urinaire",
+        "poids": "3 kg",
+        "prix": "28,00 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Croquettes vétérinaires pour la santé urinaire des chats. Prévention des calculs urinaires par dilution des urines."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Essentiel Chat Actif",
+        "poids": "2,5 kg",
+        "prix": "29,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Recette artisanale française pour chats actifs. Ingrédients naturels de qualité, sans colorants ni conservateurs ajoutés."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Sans Céréales Chat et Chaton",
+        "poids": "2,5 kg",
+        "prix": "30,40 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Recette sans céréales Maison Moulin pour chats et chatons. Protéines nobles et patate douce."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Essentiel Chat Sédentaire",
+        "poids": "2,5 kg",
+        "prix": "29,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Recette artisanale française pour chats sédentaires ou stérilisés. Formule allégée en matières grasses."
+      },
+      {
+        "sous_categorie": "Sec (croquettes)",
+        "marque": "Maison Moulin",
+        "nom": "Maison Moulin Sans Céréales Senior (Saumon)",
+        "poids": "2,5 kg",
+        "prix": "31,90 €",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "description": "Recette sans céréales au saumon pour chats seniors. Enrichi en oméga-3 pour les articulations et le pelage."
       }
     ]
   },
