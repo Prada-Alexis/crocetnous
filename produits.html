@@ -319,7 +319,8 @@ function updateBrandFilter() {
     return;
   }
 
-  const subcats = ['Toutes', ...cat.sous_categories];
+  const usedSubcats = [...new Set(cat.produits.map(p => p.sous_categorie).filter(Boolean))];
+  const subcats = ['Toutes', ...usedSubcats];
 
   container.innerHTML = subcats.map(s => `
     <button class="brand-btn ${s === currentSubcat ? 'active' : ''}"
