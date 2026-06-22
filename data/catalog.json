@@ -18,7 +18,7 @@
         "nom": "Croc'DOG Entretien",
         "poids": "20 kg",
         "prix": "28,00 €",
-        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "image": "images/chien/crocodog-entretien.png",
         "description": "Pour les longues périodes de repos ou de faible activité. Protéines animales françaises 26 %, MG 12 %. Fabrication française."
       },
       {
@@ -27,7 +27,7 @@
         "nom": "Croc'DOG Activité",
         "poids": "20 kg",
         "prix": "30,00 €",
-        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "image": "images/chien/crocodog-activite.png",
         "description": "Idéal pour les périodes de pleine activité. Teneur élevée en protéines animales françaises 29 %, MG 14 %."
       },
       {
@@ -36,7 +36,7 @@
         "nom": "Croc'DOG Énergie",
         "poids": "20 kg",
         "prix": "32,00 €",
-        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "image": "images/chien/crocodog-energie.png",
         "description": "Pour besoins énergétiques soutenus et haute performance. Protéines 32 %, MG 15 %. Fabriqué en France."
       },
       {
@@ -45,7 +45,7 @@
         "nom": "Croc'DOG Junior",
         "poids": "20 kg",
         "prix": "42,00 €",
-        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "image": "images/chien/crocodog-junior.png",
         "description": "Spécial croissance pour chiots et chiens juniors, toutes races. Enrichi en levure de bière et huile de saumon."
       },
       {
@@ -54,7 +54,7 @@
         "nom": "WOOF Adulte",
         "poids": "14 kg",
         "prix": "31,50 €",
-        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "image": "images/chien/woof-adulte-14kg.png",
         "description": "Pour chiens adultes en activité normale, toutes races moyennes et grandes. Sac fraîcheur avec fermeture zip."
       },
       {
@@ -63,7 +63,7 @@
         "nom": "WOOF Adulte Light",
         "poids": "14 kg",
         "prix": "33,30 €",
-        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "image": "images/chien/woof-adulte-light.png",
         "description": "Pour chiens adultes en surpoids ou peu actifs. Formule allégée, sac fraîcheur avec fermeture zip."
       },
       {
@@ -72,7 +72,7 @@
         "nom": "WOOF Senior",
         "poids": "14 kg",
         "prix": "33,30 €",
-        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "image": "images/chien/woof-senior.png",
         "description": "Pour chiens seniors ou à faible activité quotidienne. Enrichi en taurine et oméga-3, sac fraîcheur zip."
       },
       {
@@ -81,7 +81,7 @@
         "nom": "WOOF Adulte Mini",
         "poids": "4 kg",
         "prix": "12,50 €",
-        "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80",
+        "image": "images/chien/woof-adulte-mini.png",
         "description": "Pour chiens adultes de petites races en activité normale. Croquette taille mini, sac fraîcheur avec fermeture zip."
       },
       {
@@ -90,7 +90,7 @@
         "nom": "Classic Canin Adulte",
         "poids": "14 kg",
         "prix": "36,80 €",
-        "image": "https://images.unsplash.com/photo-1601758123927-196f3e5e9a02?w=600&q=80",
+        "image": "images/chien/classic-canin-adulte.png",
         "description": "Recette premium avec 5 plantes BIO : thym, sauge, marjolaine, origan, persil. Fabriquée en Auvergne, apports nutritionnels équilibrés."
       },
       {
@@ -99,7 +99,7 @@
         "nom": "Classic Canin Adulte Sensitive",
         "poids": "12 kg",
         "prix": "43,20 €",
-        "image": "https://images.unsplash.com/photo-1601758123927-196f3e5e9a02?w=600&q=80",
+        "image": "images/chien/classic-canin-adulte-sensitive.png",
         "description": "Recette sans céréales avec 40 % de volaille déshydratée. Apports spécifiques pour chiens aux intestins sensibles."
       },
       {
@@ -108,7 +108,7 @@
         "nom": "HD Optimum Adulte Digest Medium & Maxi",
         "poids": "12 kg",
         "prix": "39,60 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-adulte-digest-medium-maxi.png",
         "description": "Super premium sans gluten pour chiens adultes de races moyennes et grandes. Excellente digestibilité, 37 % de protéines."
       },
       {
@@ -117,7 +117,7 @@
         "nom": "HD Optimum Adulte Light Medium & Maxi",
         "poids": "12 kg",
         "prix": "39,60 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-adulte-light-medium-maxi.png",
         "description": "Super premium sans gluten. Rapport protido-calorique optimisé pour chiens adultes peu actifs ou stérilisés."
       },
       {
@@ -126,7 +126,7 @@
         "nom": "HD Optimum Adulte Énergie Medium & Maxi",
         "poids": "12 kg",
         "prix": "42,50 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-adulte-energie-medium-maxi.png",
         "description": "Super premium sans gluten. Haute teneur énergétique avec L-Carnitine pour chiens adultes très actifs."
       },
       {
@@ -135,7 +135,7 @@
         "nom": "HD Optimum Senior Digest Medium & Maxi",
         "poids": "12 kg",
         "prix": "40,50 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-senior-digest-medium-maxi.png",
         "description": "Super premium sans gluten. Profil nutritionnel complet et équilibré adapté aux besoins des chiens seniors."
       },
       {
@@ -144,7 +144,7 @@
         "nom": "HD Optimum Junior Croissance Medium & Maxi",
         "poids": "12 kg",
         "prix": "43,00 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-junior-croissance-medium-maxi.png",
         "description": "Super premium sans gluten. Pour la croissance des chiots de races moyennes et grandes, de 4 à 18 mois."
       },
       {
@@ -153,7 +153,7 @@
         "nom": "HD Optimum Junior Sevrage Medium & Maxi",
         "poids": "12 kg",
         "prix": "43,00 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-junior-sevrage-medium-maxi.png",
         "description": "Super premium sans gluten. Pour chiots de 2 à 4 mois. Croquette taille mini pour faciliter l'apprentissage de la mastication."
       },
       {
@@ -162,7 +162,7 @@
         "nom": "HD Optimum Adulte Digest Small & Mini",
         "poids": "6 kg",
         "prix": "25,60 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-adulte-digest-small-mini.png",
         "description": "Super premium sans gluten pour chiens adultes de petites races. Excellente digestibilité, croquette taille adaptée."
       },
       {
@@ -171,7 +171,7 @@
         "nom": "HD Optimum Adulte Light Small & Mini",
         "poids": "6 kg",
         "prix": "26,20 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-adulte-light-small-mini.png",
         "description": "Super premium sans gluten. Pour petites races peu actives ou stérilisées. Rapport protido-calorique optimisé."
       },
       {
@@ -180,7 +180,7 @@
         "nom": "HD Optimum Junior Croissance Small & Mini",
         "poids": "3 kg",
         "prix": "18,90 €",
-        "image": "https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80",
+        "image": "images/chien/hd-optimum-junior-croissance-small-mini.png",
         "description": "Super premium sans gluten. Pour le sevrage et la croissance des chiots de petites races, de 2 à 12 mois."
       },
       {
@@ -269,8 +269,8 @@
         "marque": "Babin",
         "nom": "Babin Junior Peau et Pelage (Saumon)",
         "poids": "2 kg",
-        "prix": "À définir",
-        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+        "prix": "15,50€",
+        "image": "images/chien/babin-junior-peau-pelage-saumon.webp",
         "description": "Croquettes au saumon pour chiots, soutient la santé de la peau et du pelage dès le plus jeune âge."
       },
       {
@@ -425,6 +425,78 @@
         "prix": "83,90 €",
         "image": "images/chien/maison-moulin-sans-cereales-chien.jpg",
         "description": "Recette sans céréales Maison Moulin, format 9 kg. Idéale pour chiens actifs et chiots sensibles aux céréales."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Nova Canis",
+        "nom": "Nova Canis Poulet",
+        "poids": "1 kg",
+        "prix": "5,50 €",
+        "image": "images/chien/nova-canis-poulet.webp",
+        "description": "Menu BARF prêt à l'emploi au poulet. 84% viandes et abats, 16% fruits légumes et herbes, 0% céréales. Viandes fraîches 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Nova Canis",
+        "nom": "Nova Canis Canard Poulet",
+        "poids": "1 kg",
+        "prix": "6,10 €",
+        "image": "images/chien/nova-canis-canard-poulet.webp",
+        "description": "Menu BARF prêt à l'emploi canard et poulet. 83% viandes et abats, 17% fruits légumes et herbes, 0% céréales. Viandes fraîches 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Nova Canis",
+        "nom": "Nova Canis Poulet Dinde Low Bones",
+        "poids": "1 kg",
+        "prix": "6,40 €",
+        "image": "images/chien/nova-canis-poulet-dinde-low-bones.webp",
+        "description": "Menu BARF poulet et dinde, faible teneur en os. 83% viandes et abats, 17% fruits légumes et herbes, 0% céréales. Viandes fraîches 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Coeur de Poulet",
+        "poids": "1 kg",
+        "prix": "3,80 €",
+        "image": "images/chien/coeur-de-poulet.webp",
+        "description": "Coeurs de poulet crus surgelés. Viandes 100% françaises, pour chiens et chats."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Boeuf et Abats",
+        "poids": "2 kg",
+        "prix": "10,90 €",
+        "image": "images/chien/boeuf-et-abats.webp",
+        "description": "Boeuf et abats crus surgelés. Viandes 100% françaises, pour chiens et chats."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Cous de Dinde",
+        "poids": "3 kg",
+        "prix": "14,30 €",
+        "image": "images/chien/cous-de-dinde.webp",
+        "description": "Gros cous de dinde crus surgelés. Viandes 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Cous de Canard",
+        "poids": "3 kg",
+        "prix": "16,70 €",
+        "image": "images/chien/cous-de-canard.webp",
+        "description": "Cous de canard crus surgelés. Viandes 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Cous de Pintade",
+        "poids": "3 kg",
+        "prix": "12,30 €",
+        "image": "images/chien/cous-de-pintade.webp",
+        "description": "Cous de pintade crus surgelés. Viandes 100% françaises."
       }
     ]
   },
@@ -447,7 +519,7 @@
         "nom": "Classic Félin Chaton",
         "poids": "3 kg",
         "prix": "18,90 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-chaton.png",
         "description": "Croquettes spéciales croissance pour chatons jusqu'à 12 mois. Riche en taurine et DHA pour un développement optimal."
       },
       {
@@ -456,7 +528,7 @@
         "nom": "Classic Félin Adulte Volaille",
         "poids": "3 kg",
         "prix": "17,90 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-volaille-3kg.png",
         "description": "Croquettes au poulet pour chats adultes. Recette premium avec plantes BIO, fabriquée en Auvergne."
       },
       {
@@ -465,7 +537,7 @@
         "nom": "Classic Félin Adulte Volaille",
         "poids": "8 kg",
         "prix": "33,30 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-volaille-8kg.png",
         "description": "Croquettes au poulet pour chats adultes, format 8 kg. Recette premium avec plantes BIO, fabriquée en Auvergne."
       },
       {
@@ -474,7 +546,7 @@
         "nom": "Classic Félin Adulte Saumon",
         "poids": "3 kg",
         "prix": "17,90 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-saumon-3kg.png",
         "description": "Croquettes au saumon pour chats adultes. Riche en oméga-3, favorise un pelage brillant et soyeux."
       },
       {
@@ -483,7 +555,7 @@
         "nom": "Classic Félin Adulte Saumon",
         "poids": "8 kg",
         "prix": "33,30 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-saumon-8kg.png",
         "description": "Croquettes au saumon pour chats adultes, format 8 kg. Riche en oméga-3, favorise un pelage brillant et soyeux."
       },
       {
@@ -492,7 +564,7 @@
         "nom": "Classic Félin Adulte Sans Céréales",
         "poids": "3 kg",
         "prix": "À définir",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-sans-cereales-3kg.png",
         "description": "Croquettes sans céréales pour chats adultes sensibles. Recette à haute teneur en protéines animales."
       },
       {
@@ -501,7 +573,7 @@
         "nom": "Classic Félin Adulte Sans Céréales",
         "poids": "8 kg",
         "prix": "33,30 €",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80",
+        "image": "images/chat/classic-felin-adulte-sans-cereales-8kg.png",
         "description": "Croquettes sans céréales pour chats adultes sensibles, format 8 kg. Haute teneur en protéines animales."
       },
       {
@@ -629,6 +701,42 @@
         "prix": "31,90 €",
         "image": "images/chat/maison-moulin-sans-cereales-senior-saumon.jpg",
         "description": "Recette sans céréales au saumon pour chats seniors. Enrichi en oméga-3 pour les articulations et le pelage."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Nova Felis",
+        "nom": "Nova Felis Lapin",
+        "poids": "500 g",
+        "prix": "5,20 €",
+        "image": "images/chat/nova-felis-lapin.webp",
+        "description": "Menu BARF lapin pour chats. 92% viandes et abats, 8% fruits légumes et herbes, 0% céréales. Viandes fraîches 100% françaises."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Boeuf et Abats",
+        "poids": "2 kg",
+        "prix": "10,90 €",
+        "image": "images/chat/boeuf-et-abats.webp",
+        "description": "Boeuf et abats crus surgelés. Viandes 100% françaises, pour chiens et chats."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Coeur de Poulet",
+        "poids": "1 kg",
+        "prix": "3,80 €",
+        "image": "images/chat/coeur-de-poulet.webp",
+        "description": "Coeurs de poulet crus surgelés. Viandes 100% françaises, pour chiens et chats."
+      },
+      {
+        "sous_categorie": "Crue (BARF)",
+        "marque": "Easy-BARF",
+        "nom": "Cous de Pintade",
+        "poids": "3 kg",
+        "prix": "12,30 €",
+        "image": "images/chat/cous-de-pintade.webp",
+        "description": "Cous de pintade crus surgelés. Viandes 100% françaises."
       }
     ]
   },
