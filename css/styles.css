@@ -299,6 +299,25 @@ section { padding: 6rem 8%; }
   margin-bottom: 3rem;
 }
 
+.animal-tabs-wrapper {
+  position: relative;
+}
+.animal-tabs-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #f2ece0);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.animal-tabs-wrapper.show-hint::after {
+  opacity: 1;
+}
+
 .tab-btn {
   background: none; border: none; cursor: pointer;
   padding: 0.75rem 1.5rem;
@@ -622,6 +641,7 @@ footer a:hover { color: var(--cream); }
   .animal-tabs {
     flex-wrap: nowrap;
     overflow-x: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     gap: 0.25rem;
@@ -646,4 +666,16 @@ footer a:hover { color: var(--cream); }
   .product-body { padding: 1rem; }
   .product-body h3 { font-size: 1rem; }
   .product-body p { display: none; }
+
+  .tab-panel p {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .tab-panel.active p {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
 }

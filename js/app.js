@@ -57,7 +57,7 @@ async function loadHomepageProducts() {
       panel.className = 'tab-panel' + (i === 0 ? ' active' : '');
 
       if (!cat.produits.length) {
-        panel.innerHTML = `<p style="padding:2rem;color:var(--text-muted);font-size:.95rem">
+        panel.innerHTML = `<p style="padding:2rem;color:var(--text-muted);font-size:.95rem;text-align:center;width:100%;">
           ${cat.emoji} Gamme ${cat.label.toLowerCase()} bientôt disponible.</p>`;
       } else {
         panel.innerHTML = cat.produits.slice(0, 4).map((p, j) => `
@@ -93,6 +93,19 @@ async function loadHomepageProducts() {
         document.getElementById('tab-' + key)?.classList.add('active');
       });
     });
+
+    const wrapper2  = document.querySelector('.animal-tabs-wrapper');
+    const tabsEl2   = document.querySelector('.animal-tabs');
+
+    function updateHint2() {
+      const canScroll = tabsEl2.scrollLeft <
+        (tabsEl2.scrollWidth - tabsEl2.clientWidth - 5);
+      wrapper2.classList.toggle('show-hint', canScroll);
+    }
+
+    tabsEl2.addEventListener('scroll', updateHint2);
+    window.addEventListener('resize', updateHint2);
+    setTimeout(updateHint2, 100);
 
   } catch (err) {
     console.error('Erreur chargement produits :', err);

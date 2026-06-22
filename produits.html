@@ -2,8 +2,12 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nos produits — CrocetNous</title>
+  <title>Nos produits — Croc&amp;Nous | Croquettes &amp; BARF à Roanne</title>
+  <meta name="description" content="Catalogue complet Croc&amp;Nous : croquettes premium françaises et alimentation crue BARF pour chiens et chats. Marques Babin, Maison Moulin, Profusion, HD Optimum et plus. Boutique à Roanne.">
+  <link rel="canonical" href="https://crocetnous.fr/produits.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
@@ -182,12 +186,33 @@
     .catalog-empty h3 { font-family: var(--serif); font-size: 1.4rem; color: var(--green-dark); margin-bottom: 0.5rem; }
     .catalog-empty p  { font-size: 0.9rem; }
 
+    /* Dégradé scroll hint onglets */
+    .cat-tabs-wrapper {
+      position: relative;
+    }
+    .cat-tabs-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 60px;
+      height: 100%;
+      background: linear-gradient(to right, transparent, #1a3325);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .cat-tabs-wrapper.show-hint::after {
+      opacity: 1;
+    }
+
     @media (max-width: 600px) {
       .catalog-hero { padding: 6.5rem 5% 0; }
 
       .cat-tabs {
         flex-wrap: nowrap;
         overflow-x: auto;
+        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         padding-bottom: 0;
@@ -240,7 +265,9 @@
     <h1 class="section-title">Nos produits</h1>
   </div>
   <!-- Onglets générés par JS depuis catalog.json -->
-  <div id="cat-tabs" class="cat-tabs"></div>
+  <div class="cat-tabs-wrapper">
+    <div id="cat-tabs" class="cat-tabs"></div>
+  </div>
 </div>
 
 <!-- BANDEAU CATÉGORIE ACTIVE -->
@@ -324,6 +351,19 @@ function buildTabs() {
       history.replaceState(null, '', `?cat=${currentCat}`);
     });
   });
+
+  const wrapper = document.querySelector('.cat-tabs-wrapper');
+  const tabsEl  = document.getElementById('cat-tabs');
+
+  function updateHint() {
+    const canScrollMore = tabsEl.scrollLeft <
+      (tabsEl.scrollWidth - tabsEl.clientWidth - 5);
+    wrapper.classList.toggle('show-hint', canScrollMore);
+  }
+
+  tabsEl.addEventListener('scroll', updateHint);
+  window.addEventListener('resize', updateHint);
+  setTimeout(updateHint, 100);
 }
 
 /* ---- Bandeau catégorie active ---- */
