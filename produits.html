@@ -184,9 +184,39 @@
 
     @media (max-width: 600px) {
       .catalog-hero { padding: 6.5rem 5% 0; }
-      .cat-tab { min-width: 80px; padding: 0.75rem 1rem; }
+
+      .cat-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 0;
+        gap: 0.5rem;
+      }
+      .cat-tabs::-webkit-scrollbar { display: none; }
+
+      .cat-tab {
+        min-width: 90px;
+        flex-shrink: 0;
+        padding: 0.75rem 1rem;
+      }
+      .cat-tab-emoji { font-size: 1.6rem; }
+      .cat-tab-label { font-size: 0.7rem; }
+      .cat-tab-count { display: none; }
+
       .cat-banner { padding: 1.2rem 5%; }
       .catalog-body { padding: 2rem 5% 4rem; }
+
+      .catalog-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      .catalog-card-img { height: 140px; }
+      .catalog-card-body { padding: 1rem; }
+      .catalog-card-body h3 { font-size: 0.95rem; }
+      .catalog-card-body p { display: none; }
+      .catalog-prix { font-size: 1.1rem; }
     }
   </style>
 </head>

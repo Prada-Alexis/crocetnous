@@ -615,3 +615,35 @@ footer a:hover { color: var(--cream); }
   .strip           { gap: 1.5rem; }
   footer           { flex-direction: column; text-align: center; }
 }
+
+@media (max-width: 600px) {
+
+  /* Onglets catégories page d'accueil */
+  .animal-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 0.25rem;
+  }
+  .animal-tabs::-webkit-scrollbar { display: none; }
+
+  .tab-btn {
+    flex-shrink: 0;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  /* Grille produits page d'accueil */
+  .tab-panel.active {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .product-img { height: 160px; }
+
+  .product-body { padding: 1rem; }
+  .product-body h3 { font-size: 1rem; }
+  .product-body p { display: none; }
+}
