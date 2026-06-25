@@ -249,5 +249,42 @@
 </footer>
 
 <script src="js/app.js"></script>
+<script>
+const form = document.getElementById('contact-form');
+const btn  = document.getElementById('submit-btn');
+const feedback = document.getElementById('form-feedback');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  btn.textContent = 'Envoi en cours…';
+  btn.disabled = true;
+
+  const data = new FormData(form);
+
+  try {
+    const res  = await fetch('contact.php', { method: 'POST', body: data });
+    const json = await res.json();
+
+    if (json.success) {
+      feedback.textContent = '✓ Message envoyé ! Nous vous répondrons très vite.';
+      feedback.style.color = 'green';
+      feedback.classList.remove('hidden');
+      form.reset();
+    } else {
+      feedback.textContent = '✗ Une erreur est survenue. Appelez-nous au 06 59 06 75 06.';
+      feedback.style.color = 'red';
+      feedback.classList.remove('hidden');
+    }
+  } catch (err) {
+    feedback.textContent = '✗ Une erreur est survenue. Appelez-nous au 06 59 06 75 06.';
+    feedback.style.color = 'red';
+    feedback.classList.remove('hidden');
+  }
+
+  btn.textContent = 'Envoyer le message →';
+  btn.disabled = false;
+});
+</script>
 </body>
 </html>
