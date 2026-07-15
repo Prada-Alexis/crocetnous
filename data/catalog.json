@@ -497,6 +497,240 @@
         "prix": "12,30 €",
         "image": "images/chien/cous-de-pintade.webp",
         "description": "Cous de pintade crus surgelés. Viandes 100% françaises."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Oreille de Porc",
+        "poids": "",
+        "prix": "1,50 €",
+        "image": "images/chien/oreille-de-porc.webp",
+        "description": "Friandise naturelle à mâcher, idéale pour l'occupation et l'hygiène dentaire. 100% naturelle, sans additif."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Saucisson Jambon/Poulet/Boeuf",
+        "poids": "800 g",
+        "prix": "3,40 €",
+        "image": "images/chien/saucisson.webp",
+        "description": "Saucisson de viande séchée disponible en trois saveurs : Jambon, Poulet et Boeuf. Riche en protéines, sans céréales ajoutées."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Gourmandises Sachets",
+        "poids": "400 g",
+        "prix": "5,80 €",
+        "image": "images/chien/gourmandises-sachets.png",
+        "description": "Assortiment de friandises moelleuses en sachet. À utiliser comme récompense lors de l'entraînement ou en complément."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Snack Bar",
+        "poids": "",
+        "prix": "",
+        "image": "images/chien/snack-bar.jpg",
+        "description": "Plus d'une vingtaine de références de friandises vous attendent en magasin."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Poissons Séchés",
+        "poids": "400 g",
+        "prix": "17,40 €",
+        "image": "images/chien/poissons-seches.webp",
+        "description": "Friandise naturelle de poissons entiers séchés. Riche en oméga-3 et en protéines, excellente pour la peau et le pelage."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "Petite Balade",
+        "nom": "Terrine Premium Petite Balade",
+        "poids": "400 g",
+        "prix": "3,50 €",
+        "image": "images/chien/terrine-petite-balade.png",
+        "description": "Terrine 100% viandes françaises, sans conservateurs ni colorants. 5 saveurs disponibles : Boeuf, Poulet/Agneau, Volaille, Porc/Lotte, Boeuf/Gésiers."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "Hamiform",
+        "nom": "Cuisinés Chien Hamiform",
+        "poids": "250 g",
+        "prix": "3,20 €",
+        "image": "images/chien/cuisines-hamiform.jpg",
+        "description": "Aliment complet cuisiné pour chiens adultes. 5 saveurs : Poulet, Thon, Sardine, Canard et Dinde."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Os de Jambon",
+        "poids": "",
+        "prix": "2,85 €",
+        "image": "images/chien/os-de-jambon.webp",
+        "description": "Os de jambon naturel à mâcher, idéal pour l'hygiène dentaire et l'occupation. Saveur intense appréciée des chiens."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Pied de Veau",
+        "poids": "",
+        "prix": "3,95 €",
+        "image": "images/chien/pied-de-veau.webp",
+        "description": "Friandise naturelle riche en collagène, bénéfique pour les articulations et les tendons du chien."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Os de Boeuf XXL",
+        "poids": "1,8 kg",
+        "prix": "7,90 €",
+        "image": "images/chien/os-de-boeuf-xxl.webp",
+        "description": "Grand os de boeuf naturel pour les grands gabarits. Idéal pour l'occupation de longue durée et l'hygiène dentaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Queue de Carpe",
+        "poids": "100 g",
+        "prix": "8,90 €",
+        "image": "images/chien/queue-de-carpe.webp",
+        "description": "Friandise de poisson séché naturelle, riche en oméga-3. Excellente pour la peau, le pelage et la stimulation olfactive."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Fromage Séché",
+        "poids": "",
+        "prix": "",
+        "image": "images/chien/fromage-seche.webp",
+        "description": "Friandise naturelle au fromage séché. Plusieurs tailles disponibles en magasin."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Bois de Cerf Tranché",
+        "poids": "",
+        "prix": "",
+        "image": "images/chien/bois-de-cerf-tranche.webp",
+        "description": "Bois de cerf naturel pour l'occupation et l'hygiène dentaire. Plusieurs tailles disponibles en magasin."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Krill Sauvage",
+        "poids": "450 g",
+        "prix": "14,70 €",
+        "image": "images/chien/krill-sauvage.jpg",
+        "description": "Complément riche en oméga-3 et en astaxanthine naturelle. Soutient la santé cardiovasculaire, articulaire et la brillance du pelage."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Levure de Bière",
+        "poids": "250 g",
+        "prix": "11,60 €",
+        "image": "images/chien/levure-de-biere.webp",
+        "description": "Complément naturel riche en vitamines B, zinc et acides aminés. Favorise un pelage brillant et renforce le système immunitaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Gésiers de Poulet",
+        "poids": "200 g",
+        "prix": "8,50 €",
+        "image": "images/chien/gesiers-de-poulet.webp",
+        "description": "Gésiers de poulet déshydratés, naturels et sans additifs. Friandise hyperprotéinée, idéale comme récompense."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Cous de Poulet",
+        "poids": "200 g",
+        "prix": "4,50 €",
+        "image": "images/chien/cous-de-poulet.webp",
+        "description": "Cous de poulet déshydratés, source naturelle de calcium et de phosphore. Contribue à l'hygiène dentaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Queue de Boeuf",
+        "poids": "200 g",
+        "prix": "6,60 €",
+        "image": "images/chien/queue-de-boeuf.webp",
+        "description": "Queue de boeuf séchée, riche en protéines et en collagène. Friandise longue durée pour l'occupation et la santé articulaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Tendons de Boeuf",
+        "poids": "200 g",
+        "prix": "7,20 €",
+        "image": "images/chien/tendons-de-boeuf.webp",
+        "description": "Tendons de boeuf déshydratés, excellente source naturelle de collagène. Idéal pour la santé des articulations et des tendons."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Oreille de Lapin",
+        "poids": "100 g",
+        "prix": "5,90 €",
+        "image": "images/chien/oreille-de-lapin.webp",
+        "description": "Oreilles de lapin séchées naturellement digestibles. Adaptée aux chiens sensibles et aux petites races."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "Moulin à Saveurs",
+        "nom": "Moulin à Saveurs Canard et Carotte",
+        "poids": "",
+        "prix": "8,90 €",
+        "image": "images/chien/moulin-a-saveurs-canard-carotte.webp",
+        "description": "Friandise moelleuse au canard et à la carotte. Recette naturelle sans conservateurs, riche en protéines nobles."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Charbon Actif",
+        "poids": "80 g",
+        "prix": "9,90 €",
+        "image": "images/chien/charbon-actif.webp",
+        "description": "Complément détoxifiant au charbon actif végétal. Aide à réduire les ballonnements et à assainir le transit digestif."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Régul Intestinale",
+        "poids": "100 g",
+        "prix": "8,70 €",
+        "image": "images/chien/regul-intestinale.jpg",
+        "description": "Complément naturel pour la régulation du transit intestinal. Formule à base de fibres végétales et de prébiotiques."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Moule Verte",
+        "poids": "125 g",
+        "prix": "16,50 €",
+        "image": "images/chien/moule-verte.webp",
+        "description": "Complément articulaire naturel à base de moule verte de Nouvelle-Zélande. Riche en glucosamine et chondroïtine."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Huile de Saumon",
+        "poids": "1 L",
+        "prix": "22,40 €",
+        "image": "images/chien/huile-de-saumon.webp",
+        "description": "Huile de saumon pure, riche en oméga-3 EPA et DHA. Améliore la brillance du pelage et soutient le système cardiovasculaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Huile de Chanvre",
+        "poids": "500 ml",
+        "prix": "15,30 €",
+        "image": "images/chien/huile-de-chanvre.webp",
+        "description": "Huile de chanvre bio, ratio oméga-3/6 équilibré. Apaise la peau sensible et favorise la souplesse articulaire."
       }
     ]
   },
@@ -737,6 +971,168 @@
         "prix": "12,30 €",
         "image": "images/chat/cous-de-pintade.webp",
         "description": "Cous de pintade crus surgelés. Viandes 100% françaises."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Mousse Petite Balade",
+        "poids": "200 g",
+        "prix": "2,90 €",
+        "image": "images/chat/mousse-petite-balade.png",
+        "description": "Mousse 100% viandes françaises, sans conservateurs ni colorants. 4 saveurs disponibles : Truite, Canard, Poulet/Dinde, Saint Jacques."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Repas Complet",
+        "poids": "80 g",
+        "prix": "1,10 €",
+        "image": "images/chat/repas-complet.png",
+        "description": "Repas complet en boîte pour chats. 4 variantes : Poisson, Poulet, Chaton, Urinaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Soupe",
+        "poids": "80 g",
+        "prix": "1,10 €",
+        "image": "images/chat/soupe.jpg",
+        "description": "Soupe appétente pour chats adultes. 3 saveurs : Poulet, Dinde, Jambon."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Cuisiné",
+        "poids": "80 g",
+        "prix": "1,95 €",
+        "image": "images/chat/cuisine.jpg",
+        "description": "Aliment cuisiné pour chats adultes. 4 saveurs : Jambon, Boeuf, Poulet, Canard."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Émincés en Sauce",
+        "poids": "12x100 g",
+        "prix": "8,50 €",
+        "image": "images/chat/eminces-en-sauce.webp",
+        "description": "Lot de 12 sachets d'émincés en sauce pour chats adultes. Recette appétente et équilibrée."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Lait Maternisé",
+        "poids": "200 g",
+        "prix": "9,60 €",
+        "image": "images/chat/lait-maternise.jpg",
+        "description": "Lait maternisé de substitution pour chatons orphelins ou sevrés précocement. Formule proche du lait maternel."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Creamy Sticks",
+        "poids": "4x15 g",
+        "prix": "2,50 €",
+        "image": "images/chat/creamy-sticks.png",
+        "description": "Friandises crémeuses en stick pour chats. À lécher directement ou à mélanger aux croquettes."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Friandises Ovales",
+        "poids": "50 g",
+        "prix": "3,20 €",
+        "image": "images/chat/friandises-ovales.png",
+        "description": "Friandises croquantes en forme ovale. 3 saveurs : Poulet, Thon, Saumon."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Tendres Bouchées Anti Boules de Poils",
+        "poids": "40 g",
+        "prix": "3,80 €",
+        "image": "images/chat/tendres-bouchees-anti-boules-de-poils.webp",
+        "description": "Friandises moelleuses formulées pour réduire les boules de poils. Enrichies en fibres pour faciliter le transit."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Herbe à Chat",
+        "poids": "50 g",
+        "prix": "4,70 €",
+        "image": "images/chat/herbe-a-chat.webp",
+        "description": "Herbe à chat naturelle pour stimuler et divertir votre félin. Favorise le transit et l'élimination des boules de poils."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Moulin à Saveurs",
+        "poids": "45 g",
+        "prix": "8,90 €",
+        "image": "images/chat/moulin-a-saveurs-canard-carotte.webp",
+        "description": "Distributeur de friandises rotatif pour chats. Stimule l'appétit et l'instinct de chasse."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Krill Sauvage",
+        "poids": "450 g",
+        "prix": "14,70 €",
+        "image": "images/chat/krill-sauvage.jpg",
+        "description": "Complément riche en oméga-3 et en astaxanthine naturelle. Soutient la santé cardiovasculaire, articulaire et la brillance du pelage."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Levure de Bière",
+        "poids": "250 g",
+        "prix": "11,60 €",
+        "image": "images/chat/levure-de-biere.webp",
+        "description": "Complément naturel riche en vitamines B, zinc et acides aminés. Favorise un pelage brillant et renforce le système immunitaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Charbon Actif",
+        "poids": "80 g",
+        "prix": "9,90 €",
+        "image": "images/chat/charbon-actif.webp",
+        "description": "Complément détoxifiant au charbon actif végétal. Aide à réduire les ballonnements et à assainir le transit digestif."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Régul Intestinale",
+        "poids": "100 g",
+        "prix": "8,70 €",
+        "image": "images/chat/regul-intestinale.jpg",
+        "description": "Complément naturel pour la régulation du transit intestinal. Formule à base de fibres végétales et de prébiotiques."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Moule Verte",
+        "poids": "125 g",
+        "prix": "16,50 €",
+        "image": "images/chat/moule-verte.webp",
+        "description": "Complément articulaire naturel à base de moule verte de Nouvelle-Zélande. Riche en glucosamine et chondroïtine."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Huile de Saumon",
+        "poids": "1 L",
+        "prix": "22,40 €",
+        "image": "images/chat/huile-de-saumon.webp",
+        "description": "Huile de saumon pure, riche en oméga-3 EPA et DHA. Améliore la brillance du pelage et soutient le système cardiovasculaire."
+      },
+      {
+        "sous_categorie": "Humides, friandises et compléments alimentaires",
+        "marque": "",
+        "nom": "Huile de Chanvre",
+        "poids": "500 ml",
+        "prix": "15,30 €",
+        "image": "images/chat/huile-de-chanvre.webp",
+        "description": "Huile de chanvre bio, ratio oméga-3/6 équilibré. Apaise la peau sensible et favorise la souplesse articulaire."
       }
     ]
   },
